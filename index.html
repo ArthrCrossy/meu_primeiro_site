@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Games</title>
+    <link rel="stylesheet" href="./reset/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./navbar/navbar.css">
+    <link rel="stylesheet" href="./first_section/first_section.css">
+    <link rel="stylesheet" href="./first_section/responsividade.css">
+    <link rel="stylesheet" href="./first_section/video_inaugural.css">
+    <link rel="stylesheet" href="./first_section/noticias.css">
+    <link rel="stylesheet" href="./first_section/rodape.css">
+    <link rel="stylesheet" href="./first_section/footer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Montserrat:ital,wght@0,300;0,700;1,200;1,300;1,600&display=swap" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous">
+    </script>
+    <script>
+    $(function(){
+        $(".toggle").on("click", function(){
+            if($(".item").hasClass("active")){
+                $(".item").removeClass("active");
+            }else{
+                $(".item").addClass("active");
+            }
+        });
+    });
+    </script>
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="menu">
+                <li class="logo"><a href="#">Games</a></li>
+                <li class="item"><a href="./www.google.com">Início</a></li>
+                <li class="item"><a href="#">Sobre</a></li>
+                <li class="item"><a href="#">Contatos</a></li>
+                </li>
+                <li class="item button"><a href="#">Loguin</a></li>
+                <li class="item button secondary"><a href="#">Entre</a></li>
+                <li class="toggle"><span class="bars"></span></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="destaques">
+            <div class="destaques__principal cabecario">
+                <h3 class="destaques__titulo">Fornite</h3>
+            </div>
+            <div class="destaques__secundario cabecario">
+                <h3 class="destaques__titulo">PUBG</h3>
+            </div>
+            <div class="destaques__secundario cabecario">
+                <h3 class="destaques__titulo">GTA - V</h3>
+            </div>
+            <div class="destaques__secundario cabecario">
+                <h3 class="destaques__titulo">Mario</h3>
+            </div>
+            <div class="destaques__secundario cabecario">
+                <h3 class="destaques__titulo">Free - Fire </h3>
+            </div>
+            <div class="destaques__secundario cabecario">
+                <h3 class="destaques__titulo">PUGB</h3>
+            </div>
+            <div class="destaques__secundario cabecario">
+                <h3 class="destaques__titulo">CS: GO</h3>
+            </div>
+        </section>
+        <section class="Video_Sobre container-fluid">
+            <div class="wrap_titulo">
+            <h2 class="Video_Sobre_Titulo">FILMESNET</h2>
+            </div>
+            <div class="container_video_sobre">
+                <iframe class="video_descriçao" width="560" height="315" src="https://www.youtube.com/embed/dkZvM1Kq-0s" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <ul class="Videos_Sobre_Sobre_lista">
+                        <li class="VideosSobre_Sobre_Item"> &#9733 Lorem Ipsum is simply dummy tex</li>
+                        <li class="VideosSobre_Sobre_Item"> &#9733 Lorem Ipsum is simply dummy tex</li>
+                        <li class="VideosSobre_Sobre_Item"> &#9733 Lorem Ipsum is simply dummy tex</li>
+                        <li class="VideosSobre_Sobre_Item"> &#9733 Lorem Ipsum is simply dummy tex</li>
+                        <li class="VideosSobre_Sobre_Item"> &#9733 Lorem Ipsum is simply dummy tex</li>
+                        <li class="VideosSobre_Sobre_Item"> &#9733 Lorem Ipsum is simply dummy tex</li>
+                        <button class="videoSobre_button">Cadastre Aqui !</button> 
+                    </ul>      
+            </div>     
+        </section>
+        <section class="descricao_inumeros_filmes">
+            <div class="subtitulo_filmes">
+                <h2 class="descricao_noticias"> ULTIMAS NOTICIAS</h2>
+                <h3 class="descricao_secundaria">VER TODAS</h3>
+            </div>
+            <hr class="linha_horizontal">
+            <article class="noticia">
+                <div class="noticia_secundaria">
+                    <img class="img" src="./img/whatsapp.png" alt="imagem do whats app">
+                    <ul class="descricao_noticias_dias">
+                        <h4 class="titulo_noticia">Aprenda Aqui:</h4>
+                        <li>Lorem Ipsum is simply dummy tex</li>
+                        <li>Lorem Ipsum is simply dummy tex</li>
+                        <li>Lorem Ipsum is simply dummy tex</li>
+                        <li>Lorem Ipsum is simply dummy tex</li>
+                    </ul>
+                </div>
+                <div class="noticia_secundaria">
+                    <img class="img" src="./img/organizze.jpeg" alt="imagem do organizze">
+                    <ul class="descricao_noticias_dias">
+                        <h4 class="titulo_noticia">Registro de Dados:</h4>
+                        <li>Lorem Ipsum is simply dummy tex</li>
+                        <li>Lorem Ipsum is simply dummy tex</li>
+                        <li>Lorem Ipsum is simply dummy tex</li>
+                        <li>Lorem Ipsum is simply dummy tex</li>
+                    </ul>
+                </div>
+                <div class="noticia_secundaria">
+                    <img class="img" src="./img/skype.png" alt="imagem do skype">
+                    <ul class="descricao_noticias_dias">
+                        <h4 class="titulo_noticia">Se Comunique:</h4>
+                        <li>Lorem Ipsum is simply dummy tex</li>
+                        <li>Lorem Ipsum is simply dummy tex</li>
+                        <li>Lorem Ipsum is simply dummy tex</li>
+                        <li>Lorem Ipsum is simply dummy tex</li>
+                    </ul>
+                </div>
+                <div class="noticia_secundaria">
+                    <img class="img" src="./img/telegram.jpeg" alt="imagem do telegram">
+                    <ul class="descricao_noticias_dias">
+                        <h4 class="titulo_noticia">Uma Nova Rede Social:</h4>
+                        <li>Lorem Ipsum is simply dummy tex</li>
+                        <li>Lorem Ipsum is simply dummy tex</li>
+                        <li>Lorem Ipsum is simply dummy tex</li>
+                        <li>Lorem Ipsum is simply dummy tex</li>
+                    </ul>
+                </div> 
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+            <h2 class="footer-title">Titulo Final</h2>
+        <div class="footer-content">
+            <div class="footer-section about">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </div>
+            <div class="footer-section links"></div>
+            <div class="footer-section contact-form"></div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>ei</p>
+            &copy; codingpoets.com | Dseigned by Awa.
+        </div>
+    </footer>
+</body>
+</html>

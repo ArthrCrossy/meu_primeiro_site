@@ -1,0 +1,43 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navbar {
+    background: #222222;
+    padding: 5px 20px;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    text-decoration: underline;
+}
+
+.menu li {
+    font-size: 16px;
+    padding: 15px 5px;
+    white-space: nowrap;
+}
+
+.logo a,
+.toggle a{
+    font-size: 20px;
+}
+
+.button.secondary {
+    border-bottom: 1px #444444 solid;
+}
